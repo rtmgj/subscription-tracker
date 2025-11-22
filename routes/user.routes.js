@@ -12,4 +12,5 @@ userRouter.post('/', (req, res) => ({title: 'CREATE new user'}));
 userRouter.put('/:id', (req, res) => ({title: 'UPDATE user'}));
 
 userRouter.delete('/:id', (req, res) => ({title: 'DELETE user'}));
+
 export default userRouter;
